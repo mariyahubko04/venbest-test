@@ -105,21 +105,17 @@ class PeopleList extends React.Component {
             <PageNotFound />
           ) : (
               <ul className="people__section">
-                {filterPeoples.length > 0 ?
-                  (filterPeoples.map((people, index) => (
-                    <li key={index}>
-                      <div>
-                        <span>{people.name}</span>
-                        &#8194;
-                      <span>{people.lastname}</span>
-                      </div>
-                      <div>Возраст:&#8194;{people.age}</div>
-                      <div>Пол:&#8194;{people.sex === 'm' ? "мужской" : "женский"}</div>
-                    </li>
+                {filterPeoples.map((people, index) => (
+                  <li key={index}>
+                    <div>
+                      <span>{people.name}</span>
+                      &#8194;
+                    <span>{people.lastname}</span>
+                    </div>
+                    <div>Возраст:&#8194;{people.age}</div>
+                    <div>Пол:&#8194;{people.sex === 'm' ? "мужской" : "женский"}</div>
+                  </li>
                   ))
-                  ) : (
-                    <div>По указанному запросу не найдено данных.</div>
-                  )
                 }
               </ul>
             )
