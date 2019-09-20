@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/venbest-test/precache-manifest.3fc60a6f73565b2c704aff53c702702d.js"
+  "/venbest-test/precache-manifest.a664f9ab811726e9527b076a352489e2.js"
 );
 
 self.addEventListener('message', (event) => {
