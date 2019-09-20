@@ -118,7 +118,8 @@ class PeopleList extends React.Component {
                     </li>
                   ))
                   ) : (
-                    <div>По указанному запросу не найдено данных.</div>)
+                    <div>По указанному запросу не найдено данных.</div>
+                  )
                 }
               </ul>
             )
