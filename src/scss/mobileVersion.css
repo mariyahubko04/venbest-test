@@ -1,0 +1,13 @@
+@media (max-width: 639px) {
+  .people {
+    width: 90%;
+    font-size: 14px;
+  }
+  .people__filter--label {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.3fr 1fr;
+        grid-template-columns: 0.3fr 1fr;
+  }
+}
+/*# sourceMappingURL=mobileVersion.css.map */

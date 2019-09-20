@@ -1,0 +1,13 @@
+@media (max-width: 639px) {
+  .people {
+    & {
+      width: 90%;
+      font-size: 14px;
+    }
+
+    &__filter--label {
+      display: grid;
+      grid-template-columns: 0.3fr 1fr;
+    }
+  }
+}
