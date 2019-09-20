@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bed696f7376989956baf79318b5ee96",
+    "revision": "f3ebf4e622ab846f588b228a7253e194",
     "url": "/venbest-test/index.html"
   },
   {
-    "revision": "f33a2b2064afbcda55b4",
+    "revision": "eda2157cfb2a06effffb",
     "url": "/venbest-test/static/css/main.cedf4bdc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/venbest-test/static/js/2.e912ceb5.chunk.js"
   },
   {
-    "revision": "f33a2b2064afbcda55b4",
-    "url": "/venbest-test/static/js/main.36c4d479.chunk.js"
+    "revision": "eda2157cfb2a06effffb",
+    "url": "/venbest-test/static/js/main.2c7be87d.chunk.js"
   },
   {
     "revision": "33850c8e793d13138cba",
