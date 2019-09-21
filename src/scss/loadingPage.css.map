@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,QADM,CACJ;EACA,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "loadingPage.scss"
+    ],
+    "names": [],
+    "file": "loadingPage.css"
+}

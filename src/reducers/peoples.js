@@ -3,7 +3,7 @@ const reducerPeople = (state, action) => {
     case 'PEOPLES_IS_LOADING':
       return {
         ...state,
-        isLoading: true,
+        peoplesIsLoading: action.isLoading,
       };
 
     case 'PEOPLES_HAS_ERRORED':
@@ -15,7 +15,7 @@ const reducerPeople = (state, action) => {
     case 'PEOPLES_FETCH_DATA_SUCCESS':
       return {
         ...state,
-        isLoading: false,
+        peoplesIsLoading: false,
         loadedPeoples: action.peoples,
         filterPeoples: action.peoples,
       };

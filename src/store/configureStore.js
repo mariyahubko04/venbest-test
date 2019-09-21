@@ -6,7 +6,7 @@ const initialState = {
   loadedPeoples: [],
   filterPeoples: [],
   hasErrored: false,
-  isLoading: false,
+  peoplesIsLoading: false,
   valueWomanChekbox: false,
   valueManChekbox: false,
   valueAgeInput: '',
