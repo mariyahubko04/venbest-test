@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bed696f7376989956baf79318b5ee96",
+    "revision": "a9be25606cb1a60f4a1469c243751f35",
     "url": "/venbest-test/index.html"
   },
   {
-    "revision": "f33a2b2064afbcda55b4",
-    "url": "/venbest-test/static/css/main.cedf4bdc.chunk.css"
+    "revision": "205f29fc6d97fe8a7dd1",
+    "url": "/venbest-test/static/css/main.7a2bb02e.chunk.css"
   },
   {
     "revision": "b44c8c4817981090ad66",
     "url": "/venbest-test/static/js/2.e912ceb5.chunk.js"
   },
   {
-    "revision": "f33a2b2064afbcda55b4",
-    "url": "/venbest-test/static/js/main.36c4d479.chunk.js"
+    "revision": "205f29fc6d97fe8a7dd1",
+    "url": "/venbest-test/static/js/main.f17ba80a.chunk.js"
   },
   {
     "revision": "33850c8e793d13138cba",
