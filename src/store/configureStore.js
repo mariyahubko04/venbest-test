@@ -5,7 +5,7 @@ import reducerPeople from '../reducers/peoples';
 const initialState = {
   loadedPeoples: [],
   filterPeoples: [],
-  hasErrored: false,
+  peoplesHasErrored: false,
   peoplesIsLoading: false,
   valueWomanChekbox: false,
   valueManChekbox: false,

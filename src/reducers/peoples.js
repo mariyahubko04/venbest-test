@@ -9,7 +9,7 @@ const reducerPeople = (state, action) => {
     case 'PEOPLES_HAS_ERRORED':
       return {
         ...state,
-        hasErrored: true,
+        peoplesHasErrored: true,
       };
 
     case 'PEOPLES_FETCH_DATA_SUCCESS':

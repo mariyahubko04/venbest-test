@@ -101,9 +101,9 @@ class PeopleList extends React.Component {
         </div>
 
         {
-          !isLoading ? (
-            hasErrored ? (
-              <PageNotFound />
+          !hasErrored ? (
+            isLoading ? (
+              <LoadingPage />
             ) : (
                 <ul className="people__section">
                   {filterPeoples.length > 0 ? (
@@ -112,7 +112,7 @@ class PeopleList extends React.Component {
                         <div>
                           <span>{people.name}</span>
                           &#8194;
-                    <span>{people.lastname}</span>
+                          <span>{people.lastname}</span>
                         </div>
                         <div>Возраст:&#8194;{people.age}</div>
                         <div>Пол:&#8194;{people.sex === 'm' ? "мужской" : "женский"}</div>
@@ -123,7 +123,7 @@ class PeopleList extends React.Component {
                   }
                 </ul>
               )
-          ) : <LoadingPage />
+          ) : <PageNotFound />
         }
       </div>
     );
